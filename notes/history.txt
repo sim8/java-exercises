@@ -1,0 +1,11 @@
+Released in 1996
+$100m fund set up for products using it
+
+Sun engineers needed lang that could run on small devices with different CPUs
+Led to them developing portable language that generated intermediate code for a VM
+Was originally called Oak.
+Struggled to sell tech
+In 1994, realized they could build a great browser
+Java first released in 1996
+
+In 2007, Sun announced future versions available under GPL.

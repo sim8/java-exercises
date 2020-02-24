@@ -1,0 +1,12 @@
+javac MyClass.java // compile class
+java MyClass // run class
+
+REPL
+----
+
+jshell
+can just run an expression which'll be saved to a
+variable "e.g. $1 ==> "some result"
+Otherwise can create a var, which is then available
+
+Can type "Math." then tab to see suggestions

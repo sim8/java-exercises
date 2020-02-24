@@ -1,0 +1,30 @@
+public/private - access modifier
+
+TYPES
+=====
+int, short, long, byte
+
+long finish with l
+binary can start with 0b
+
+float - denoted by 3.234f
+double - double as precise as a float!
+
+Pretty much always prefer double.
+
+char - can be hexadecimal representing unicode. E.g. \u03C0 is pi. These can be used outside of quotes, in place of actual code 😱
+
+MATH
+====
+use floorMod instead of % if operand could be negative
+
+When two values are combined with a binary op (e.g. a + b) they're both converted to a common type, like float
+
+CASTING
+=======
+int wow = (int) 4.2
+
+
+STRINGS
+=======
+They're immutable! Shit
