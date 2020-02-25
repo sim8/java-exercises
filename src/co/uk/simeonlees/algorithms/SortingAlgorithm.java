@@ -1,6 +1,4 @@
-package com.company;
-
-import java.util.List;
+package co.uk.simeonlees.algorithms;
 
 public abstract class SortingAlgorithm extends Algorithm {
     public abstract int[] sort(int[] items);

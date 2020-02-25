@@ -1,7 +1,6 @@
-package com.company;
+package co.uk.simeonlees.algorithms;
 
 public class QuickSort extends SortingAlgorithm {
-    @Override
     public int[] sort(int[] items) {
         return new int[0];
     }
