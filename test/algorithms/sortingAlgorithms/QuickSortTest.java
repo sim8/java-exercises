@@ -6,9 +6,11 @@ import co.uk.simeonlees.algorithms.QuickSort;
 
 public class QuickSortTest {
   @Test
-  public void firstTest() {
+  public void itSortsAnArray() {
     QuickSort quickSort = new QuickSort();
-//    quickSort.sort()
-    Assert.assertTrue(true);
+    int[] unsorted = new int[]{1,4,2,0,20};
+    int[] sorted = new int[]{0,1,2,4,20};
+    int[] result = quickSort.sort(unsorted);
+    Assert.assertArrayEquals(sorted, result);
   }
 }
